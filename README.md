@@ -1,5 +1,16 @@
 # ALL OF THE CODE IS COMPLETE. BELOW IS ONLY AN EXPLANATION OF HOW THE CODE WORKS; DO NOT TRY TO RECREATE THE CODE JUST CLONE IT AND BEGIN TO ADD YOUR COMPONENTS
 
+### Clone the repo and run in development like so:
+Install dependencies with npm
+```
+npm i
+```
+Run app in development
+```
+npm run development
+```
+### View app on localhost:3000
+
 # LL Dapp MERN skeleton
 A MERN skeleton for use in the LL decentralized application
 
