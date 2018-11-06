@@ -1140,3 +1140,5 @@ in the skeleton application, we need to implement basic server-side rendering.
 
 The skeleton MERN application explained here is a completely functioning MERN web application with basic user features. We can 
 extend the code in this skeleton to add a variety of features for our application.
+
+![alt text](https://s3-us-west-2.amazonaws.com/lldappimages/marketplace_platform.png "LL Dapp Marketplace")
