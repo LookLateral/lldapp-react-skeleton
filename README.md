@@ -460,7 +460,7 @@ the frontend, as demonstrated in the following with the custom PrivateRoute.
 
 # PrivateRoute component
 The client/auth/PrivateRoute.js defines the PrivateRoute component as shown in an auth flow example from 
-[text link](https://reacttraining.com/react-router/web/example/auth-workflow) in the React Router documentation. It will allow us to declare protected routes for the frontend 
+[React Training](https://reacttraining.com/react-router/web/example/auth-workflow) in the React Router documentation. It will allow us to declare protected routes for the frontend 
 to restrict view access based on user auth.
 
 ### mern-skeleton/client/auth/PrivateRoute.js:
