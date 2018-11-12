@@ -38,7 +38,15 @@ class SidebarFastLink extends Component {
 									<Search style={styles.icons} />
 								</Link>					
 								<Button color="inherit" onClick={() => {
-								  auth.signout(/*() => history.push('/')*/)
+								  auth.signout(
+								  
+								  	/*
+									
+									() => history.push('/')
+									help: how to get history in here??
+									
+									
+									*/)
 								}} style={styles.links}>
 									<PowerSettingsNew  style={styles.icons} />
 								</Button>
