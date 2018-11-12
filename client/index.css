@@ -1,0 +1,215 @@
+/* CSS Document */
+
+/* CSS Document */
+
+                            /*general rules*/
+body {
+    margin: 0px !important;
+}
+p{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+
+
+                            /*Menu - header*/
+#menu {
+    width: 100%;
+    height: 112px;
+    padding: 0px;
+}
+#div-logo {
+    background-color: black;
+    width: 100%;
+    height: 55px;
+    text-align: center;
+    padding-top: 25px;
+}
+.img-logo {
+    width: 320px;
+}
+#div-navbar {
+    background-color: black;
+    width: 100%;
+    height: 32px;
+    display: inline-flex;
+}
+.navbar-block{
+    width: 33%;
+    text-align: center;
+    padding-top: 5px;
+}
+.navbar-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.IconSandwich {
+    color: white;
+    margin-right: 20px;
+    font-size: 2em;
+    position: absolute;
+    right: 0px;
+    top:32px;
+}
+
+
+                            /*Sidebar*/
+.sidebar {
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 112px;
+    bottom: 0;
+    background-color: #171d17;
+}
+.sidebar-user-details {
+    text-align: center;
+}
+.sidebar-user-pic {
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+    margin: 30px auto;
+}
+.sidebar-user-name {
+    font-size: 16px;    
+    color: yellow;
+}
+.sidebar-user-type {
+    font-size: 12px;    
+    background-color: yellow;
+}
+
+.sidebar-fast-links {
+    margin-top: 20px;
+    text-align: center;
+}
+.sidebar-fast-links a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+.sidebar-fast-links a svg {
+    margin: 0 8px;
+}
+
+.sidebar-link-list {
+    margin-top: 20px;
+}
+.sidebar-single-link{
+    height: 30px;
+    border-top: 1px thin #555;
+    text-align: left;
+    padding: 10px 2px 0px 15px;
+}
+.sidebar-single-link a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.sidebar-single-link a svg{
+    margin-right: 5px;
+}
+                            /*Footer*/
+#footer {
+    width: 100%;
+}
+#footer-top{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+#footer-bottom{
+    background-color: #171d17;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+#footer-top p {
+    padding: 10px;
+    font-size: 12px;
+}
+#footer-top p strong {
+    font-size: 16px;
+}
+#footer-top p a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+#footer-bottom a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+                            /*Home*/
+#page-index-content{
+    display: inline-flex;
+    width: 100%;
+}
+
+/*IndexLeft*/
+#index-left-content {
+    width: 50%;
+    text-align: center;
+}
+
+/*IndexRight*/
+#index-right-content {
+    width: 50%;
+}
+
+#index-right-content img {
+    max-height:100%; 
+    max-width:100%;
+}
+
+
+
+
+                            /* Prov listing page*/
+#page-prov {
+    width: 100%;
+}
+#page-prov h1 { 
+    text-align: center 
+}
+
+/*FilterProvenance*/
+#page-prov-filter {
+    width: 500px;
+    height: 80px;
+    background-color: grey;
+    margin: 0px auto 50px auto;
+    text-align: center;
+}
+
+/*Artwork (in prov and fimart listing-page*/
+.artwork-in-list {
+    padding: 10px;
+    width: 140px;
+    float: left;
+}
+.artwork-in-list-image {
+    width: 120px;
+    height: 160px;
+    margin: 0 auto;
+    background-color: cornflowerblue;
+}
+.artwork-in-list-artworkname {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.artwork-in-list-artistname {
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+}

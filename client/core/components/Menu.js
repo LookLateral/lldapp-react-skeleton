@@ -1,11 +1,11 @@
 import React from 'react'
 import AppBar from 'material-ui/AppBar'
 import Toolbar from 'material-ui/Toolbar'
-import Typography from 'material-ui/Typography'
-import IconButton from 'material-ui/IconButton'
-import HomeIcon from 'material-ui-icons/Home'
+//import Typography from 'material-ui/Typography'
+//import IconButton from 'material-ui/IconButton'
+//import HomeIcon from 'material-ui-icons/Home'
 import Button from 'material-ui/Button'
-import auth from './../auth/auth-helper'
+//import auth from './../auth/auth-helper'
 import {Link, withRouter} from 'react-router-dom'
 
 const isActive = (history, path) => {
@@ -14,7 +14,7 @@ const isActive = (history, path) => {
   else
     return {color: '#ffffff'}
 }
-const Menu = withRouter(({history}) => (
+/* const Menu = withRouter(({history}) => (
   <AppBar position="static">
     <Toolbar>
       <Typography type="title" color="inherit">
@@ -50,6 +50,29 @@ const Menu = withRouter(({history}) => (
             }}>Sign out</Button>
         </span>)
       }
+    </Toolbar>
+  </AppBar>
+)) */
+
+const Menu = withRouter(({history}) => (
+  <AppBar position="static">
+    <Toolbar>
+        <Link to="/">
+			<Button style={isActive(history, "/" )}>LOOK LATERAL
+			</Button>
+		</Link>      
+      	<Link to="/provenance">
+			<Button style={isActive(history, "/provenance" )}>PROVENANCE
+			</Button>
+		</Link>     	
+		<Link to="/fimart">
+			<Button style={isActive(history, "/fimart" )}>FIMART
+			</Button>
+		</Link>		
+		<Link to="http://svilcom2018.looklateral.com/home-journal">
+			<Button style={isActive(history, "/journal" )}>JOURNAL
+			</Button>
+		</Link>
     </Toolbar>
   </AppBar>
 ))
