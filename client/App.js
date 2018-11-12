@@ -2,8 +2,10 @@ import {MuiThemeProvider, createMuiTheme} from 'material-ui/styles'
 import {indigo, pink} from 'material-ui/colors'
 import React from 'react'
 import MainRouter from './MainRouter'
+import configStore from './core/store/configStore'
 import {BrowserRouter} from 'react-router-dom'
 import { hot } from 'react-hot-loader'
+import {Provider} from 'react-redux'
 
 const theme = createMuiTheme({
     palette: {
@@ -24,13 +26,17 @@ const theme = createMuiTheme({
       type: 'light'
     },
   })
+const store = configStore()
 
+// add Provider to handle the store in the App
 const App = () => (
+<Provider store = {store}>
   <BrowserRouter>
     <MuiThemeProvider theme={theme}>
       <MainRouter/>
     </MuiThemeProvider>
   </BrowserRouter>
+</Provider>
 )
 
 export default hot(module)(App)
