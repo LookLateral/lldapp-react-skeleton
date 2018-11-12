@@ -1,7 +1,3 @@
-export const ADD_ARTWORK = 'ADD_ARTWORK'
-export const EDIT_ARTWORK = 'EDIT_ARTWORK'
-export const DELETE_ARTWORK = 'DELETE_ARTWORK'
-
 export function addArtwork (artwork) {
     return { type: ADD_ARTWORK , artwork}
 }
